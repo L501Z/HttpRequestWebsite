@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'MBlack';
+    src: url(Montserrat-Bold.woff) format(woff);
+}
+
+html{
+    font-family: MBlack;
+}
+div#container{
+    margin-top: -10px;
+    margin-left: -10px;
+    background-color: rgb(56, 56, 56);
+    width: 100%;
+    height: 100%;
+    
+
+}
+
+.contentboxpar{
+    width:50%;
+    height: 80%;
+    background-color: rgb(56, 56, 56);
+    margin-left: 200px;
+}
+
+.contentbox{
+    padding-top: 25%;
+    text-align: center;
+    width:50%;
+    height: 80%;
+    background-color: rgb(56, 56, 56);
+}
+
+.HTTPREQUESTBOX{
+
+    background-color: rgb(255, 255, 255);
+    width: 800px;
+    height: 1400px;
+    border-radius: 25px;
+    padding-top: 15%;
+}
+
+.SendButtons{
+    padding-top: 70px;
+    text-align: center;
+    
+}
+
+
+
+.ChooseType{
+    margin-left: 450px;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(204, 204, 204);
+    text-align: center;
+}
+
+.codepics{
+    margin-left: 9%;
+    width: 800px;
+    height: 500px;
+    background-color: rgb(204,204,204);
+
+}
+
+#xmlcode{
+    margin-top: 3%;
+    margin-left: -18%;
+    position: absolute;
+    visibility: hidden;
+
+}
+#fetchcode{
+    margin-top: 3%;
+    margin-left: -18%;
+    position: absolute;
+
+
+}
+
+#XML{
+    border: none;
+    font-family: MBlack;
+    font-size: 40px;
+    opacity: 0.3;
+    background-color: rgba(204,204,204);
+}
+
+#XML:hover{
+    text-decoration: underline;
+}
+
+#Fetch{
+    border: none;
+    font-family: MBlack;
+    font-size: 40px;
+    background-color: rgb(204,204,204);
+
+}
+#Fetch:hover{
+    text-decoration: underline;
+    color: (0,0,0);
+}
+
+
+#FetchRequest{
+    font-size: 20px;
+    width: 200px;
+    height: 100px;
+    border-radius: 25px;
+
+    background-color: rgb(56,56,56,0.5);
+    border: none;
+    font-family: MBlack;    
+
+}
+
+#FetchRequest:hover{
+
+    background-color: rgba(100, 100, 100, 0.5);
+    transition: 0.1s;
+    cursor: pointer;
+
+}
+
+#XMLHttpRequestButton:hover{
+
+    background-color: rgba(100, 100, 100, 0.5);
+    transition: 0.1s;
+    cursor: pointer;
+
+}
+
+#XMLHttpRequestButton{
+
+    position: absolute;
+    border: none;
+    font-family: MBlack;
+    visibility: hidden;
+    font-size: 20px;
+    width: 200px;
+    height: 100px;
+    border-radius: 25px;
+
+    background-color: rgb(56,56,56,0.5);
+}
+
+#container2{
+    margin-top: 400px;
+}
+
+
+#apilink{
+    text-align: center;
+    margin-top: 50px;
+    font-family: MBlack;
+    width: 500px;
+    height: 50px;
+    background-color:rgb(159, 165, 165)a;
+    
+}
+
+.outputcontainer{
+    font-size: 10px;
+    text-align: left;
+    margin-top: 100px;
+    margin-left:100px;
+    background-color: rgb(255, 255, 255);
+    width: 620px;
+    height: 300px;
+    overflow-y:scroll;
+    background-color: gray;
+    color: rgb(0, 0, 0);
+    
+}
+
+.BuildRequestMessage{
+    width: 500px;
+    height: 500px;
+    background-color: gray;
+}

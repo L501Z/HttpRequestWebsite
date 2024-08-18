@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="httprequests">
+        <title>Http Requests</title>
+
+        <link rel = "stylesheet" href = "styles.css">
+        <script src = "index.js"></script>
+    </head>
+    <body>
+        <div id = "container">
+            <div class = "contentboxpar">
+                <div class = "contentbox">
+                    <div class = "HTTPREQUESTBOX" id = "HTTPREQUESTBOX">
+    
+                            <div class = "ChooseType">
+                                <button id = "XML">XML</button>
+                                <button id = "Fetch">Fetch</button>
+                            </div>
+             
+                        <div class ="codepics" id = "codepics">
+                            <img src = "xmlcode.png" id = "xmlcode" class = "pics" alt = "xmlpic" width = "800">
+                            <img src = "fetchcode.png" id = "fetchcode" class = "pics" alt = "fetchpic" width = "800">
+
+                        </div>
+                        <input type="text" id = "apilink" placeholder="any endpoint url goes here to perform a 'GET' request" title = "apilink">
+                        <div class = "SendButtons">
+                            <button id = "XMLHttpRequestButton">Send Http Request</button>
+                            <button id = "FetchRequest">Send Http Request</button>
+                        </div>
+    
+                        <div class = "outputcontainer">
+                            <div id = "output">Response will go here</div>
+                        </div>
+                    </div>
+
+                    <div id = "container2">
+                        <div class = "BuildRequestMessage">
+                            <div class = "RequestInfo">
+                                <div class = "urltext">
+                                    <input type="text" id = "urlinput" value="URL/ENDPOINT HERE" title = "urlinput">
+                                </div>
+                                <div class = "methodchange">
+                                    <select name="methods" id="method" title = "methods">
+                                        <option value="PUT">PUT</option>
+                                        <option value="POST">POST</option>
+                                        <option value="GET">GET</option>
+                                    </select>
+                                </div>
+                                <div class = "headers">
+                                    <input type ="text" id = "headname" value = "header name"title = "headname">
+                                    <input type ="text" id = "headvalue" value = "header value"title = "headvalue">
+                                    <button id = "AddHeader">ADD HEADER</button>
+                                </div>
+                                <div class = "body">
+                                    <input type ="text" id = "bodyname" value = "body name" title = "bodyname">
+                                    <input type ="text" id = "bodyvalue" value = "body value" title = "bodyvalue">
+                                    <button id = "AddBody">ADD BODY</button>
+                                </div>
+                                <div class="outputs">
+                                    <textarea id = "headerviewer" title = "headerviewer"></textarea>
+                                </div>
+                                    <textarea id = "bodyviewer" title = "bodyviewer"></textarea>
+                                </div>
+                                <div class = "payloaddata">
+                                    <textarea id = "paydatatext" title="paydata" placeholder="DATA YOU WANT TO SEND"></textarea>
+                                </div>
+                                <div class = "CreateButton">
+                                    <button id = "CreateRequest">Create Request</button>
+                                </div>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
